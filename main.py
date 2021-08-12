@@ -1,4 +1,4 @@
-"""
+'''
 Canvas stress
 =============
 
@@ -7,10 +7,7 @@ numbers of small squares. You should see a black canvas with buttons and a
 label at the bottom. Pressing the buttons adds small colored squares to the
 canvas.
 
-"""
-import os
-
-os.environ["KIVY_GL_BACKEND"] = "angle_sdl2"
+'''
 
 from kivy.uix.button import Button
 from kivy.uix.widget import Widget
